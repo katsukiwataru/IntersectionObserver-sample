@@ -32,7 +32,7 @@ loadPolyfills();
 	};
 	// 遅延ロード
 	function loading(img) {
-    console.log(img);
+    console.log({ img });
 		// data-srcの値を取得
 		const src_val = img.getAttribute(img_path);
 		if (src_val) {
@@ -40,7 +40,7 @@ loadPolyfills();
 			img.src = src_val;
 			img.onload = function() {
 				// data-src属性を削除
-				this.removeAttribute(img_path);
+				img.removeAttribute(img_path);
 			};
 		}
 	};
