@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Intersection Observer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Intersection Observer DEMO | LazyLoad Images</title>
 </head>
 <body>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: black;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: antiquewhite;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: aqua;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: aquamarine;"></div>
-  <div id="root" style="width: 100px; height: 200px; background-color: brown;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: black;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: antiquewhite;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: aqua;"></div>
-  <div class="rootBox" style="width: 100px; height: 200px; background-color: aquamarine;"></div>
-  <script src="./index.js"></script>
+  <h1>Intersection Observer DEMO | LazyLoad Images</h1>
+  <ul>
+    <li>
+      <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./orca-1.png" alt="" width="500" height="500">
+    </li>
+    <li>
+      <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./orca-2.png" alt="" width="500" height="500">
+    </li>
+    <li>
+      <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./orca-3.png" alt="" width="500" height="500">
+    </li>
+    <li>
+      <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./orca-4.png" alt="" width="500" height="500">
+    </li>
+  </ul>
+  <hr>
+  <script src="index.js"></script>
 </body>
 </html>
